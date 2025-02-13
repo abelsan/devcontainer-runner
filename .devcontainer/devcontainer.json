@@ -1,12 +1,6 @@
 {
   "name": "Python Dev Container",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": "..",
-    "args": {
-      "VARIANT": "3"
-    }
-  },
+  "image": "mcr.microsoft.com/devcontainers/python:3",
   "settings": {
     "python.pythonPath": "/usr/local/bin/python"
   },
