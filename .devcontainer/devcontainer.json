@@ -1,27 +1,24 @@
 {
   "name": "Python Dev Container",
   "image": "mcr.microsoft.com/devcontainers/python:3",
-  "settings": {
-    "python.pythonPath": "/usr/local/bin/python"
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.fontSize": 18,
+        "terminal.integrated.fontSize": 15
+      },
+      "extensions": [
+        "ms-python.python",
+        "GitHub.copilot",
+        "ms-vsliveshare.vsliveshare"
+      ]
+    }
   },
-  "extensions": [
-    "ms-python.python",
-    "GitHub.copilot",
-    "ms-vsliveshare.vsliveshare"
-  ],
   "features": {
     "ghcr.io/devcontainers/features/common-utils:1": {
       "installZsh": true,
       "upgradePackages": false
     }
-  },
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "editor.fontSize": 18,
-        "terminal.integrated.fontSize": 15
-      }
-    }
-  }  
-
+  }
 }
