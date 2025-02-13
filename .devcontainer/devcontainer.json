@@ -14,5 +14,14 @@
       "installZsh": true,
       "upgradePackages": false
     }
-  }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.fontSize": 18,
+        "terminal.integrated.fontSize": 16
+      }
+    }
+  }  
+
 }
