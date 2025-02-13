@@ -19,7 +19,7 @@
     "vscode": {
       "settings": {
         "editor.fontSize": 18,
-        "terminal.integrated.fontSize": 16
+        "terminal.integrated.fontSize": 15
       }
     }
   }  
